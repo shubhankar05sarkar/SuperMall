@@ -27,7 +27,7 @@ A web application designed to empower merchants by providing a digital platform 
 
 * HTML5
 * CSS3
-* JavaScript (ES6+)
+* JavaScript
 * Firebase
 
   * Authentication
