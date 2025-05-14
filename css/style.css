@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Shop Card Styles */
+.shop-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.shop-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Offer Badge */
+.offer-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Category Pills */
+.category-pill {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: #e9ecef;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.category-pill.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Floor Navigation */
+.floor-nav {
+    background-color: #343a40;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.floor-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.floor-nav .nav-link.active {
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+/* Product Comparison */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.comparison-table th {
+    background-color: #f8f9fa;
+}
+
+/* Filter Section */
+.filter-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Loading Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .shop-card img {
+        height: 150px;
+    }
+    
+    .category-pill {
+        padding: 3px 10px;
+        font-size: 0.9em;
+    }
+} 
