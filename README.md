@@ -2,6 +2,8 @@
 
 A web application designed to empower merchants by providing a digital platform to showcase, advertise, and sell their products. This platform bridges the gap between rural towns and global markets by creating virtual counters where local merchants can list their shops, highlight current offers, and promote their unique products. With an intuitive interface and powerful filtering features, the application caters to both merchants and customers. Merchants gain visibility and opportunities to expand their businesses, while customers can seamlessly explore and shop for diverse products. By fostering a digital marketplace, this application aims to boost local economies, encourage entrepreneurial growth in underdeveloped regions, and create a more connected and inclusive global trade network.
 
+### Deployed at Netlify - https://shimmering-dodol-e10b52.netlify.app/
+
 ---
 
 ## Features
