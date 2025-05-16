@@ -1,4 +1,3 @@
-// Logger Module
 class Logger {
     constructor() {
         this.db = window.db;
