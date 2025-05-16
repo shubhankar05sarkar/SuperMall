@@ -4,6 +4,10 @@ A web application designed to empower merchants by providing a digital platform 
 
 ### Deployed at Netlify - https://shimmering-dodol-e10b52.netlify.app/
 
+You can register as a new user or use the following demo credentials to explore the application:
+- Email: abc@example.com
+- Password: abc123
+
 ---
 
 ## Features
